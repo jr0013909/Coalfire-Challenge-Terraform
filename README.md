@@ -10,7 +10,9 @@ Latest Version of Terraform
 To run execute:
 
 $ terraform init
+
 $ terraform plan
+
 $ terraform apply
 
 ## Resourced Deployed 
@@ -18,8 +20,13 @@ $ terraform apply
 1 vpc
 6 subnets
 1 compute instance running Windows Server 2019 in subnet Public Subnet 1
+
 1 compute instance running RedHat in subnet WP Subnet 1
+
 1 compute instance running RedHat in subnet WP Subnet 2
+
 1 RDS PostgreSQL Databases running PostgreSQL 11 in subnet DB Subnet 2
+
 1 ALB that has listeners in subnets Public Subnet 1 & 2
+
 All Resources within the subnets have appropriate least-permissive Security Groups in place
