@@ -3,8 +3,7 @@ Coalfire Technical Challenge to deploy the necessary AWS resources
 using Terraform described in the Scenario. 
 
 ## Prerequisites
-Latest Version of Terraform
-
+Terraform  v1.5.2 (latest version) 
 
 ## Usage
 To run execute:
